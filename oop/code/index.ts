@@ -10,7 +10,7 @@ const student1 = new Student("6716211027-3", "ณัฐกิตติ์", para
 student1.setScore("Attentions", 20);
 student1.setScore("Actions", 15);
 student1.setScore("Tests", 20);
-student1.bonus = 5; // ✅ เพิ่มโบนัส
+student1.bonus = 5; 
 
 const student2 = new Student("67162110310-5", "ศิวกร", paradigmsAssessments);
 student2.setScore("Attentions", 18);
