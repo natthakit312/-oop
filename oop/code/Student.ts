@@ -48,7 +48,7 @@ export class Student {
   }
 
   getReport(): string {
-    let report = `📘 รายงานผล: ${this.name} (${this.id})\n`;
+    let report = ` รายงานผล: ${this.name} (${this.id})\n`;
     for (const a of this.assessments) {
       const s = this.scores.get(a.name)!;
       report += `- ${a.name}: ${s.score}/${a.maxScore} (น้ำหนัก ${a.weight}%)\n`;
